@@ -80,7 +80,7 @@
 	text-align: center;
 	display: flex;
 	align-items: center;
-	padding : 40px 0;
+	padding : 40px 0 80px 0;
 
 }
 
@@ -88,7 +88,6 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	/* background-color: lightsteelblue; */
 	line-height: 2;
 	width: 100%;
 	margin: 0 auto;
@@ -122,11 +121,30 @@ svg{
 	color: #000;
 }
 
+/* svg:hover{
+	color: #ffdcb8;
+}
+.feature-heading>p:hover{
+	color: #ffdcb8;
+} */
+.feature-heading:hover{
+	color: #ffdcb8;
+}
+
+
+/* Popular */
+
 #populars{
 	/* background-color: #ffeebb; */
-	background-color: lightblue;
+	/* background-color: lightblue; */
 	/* background-color:  rgba(255,220,184,1) ; */
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 0 100px 0;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .section-heading{
@@ -137,3 +155,33 @@ svg{
 	/* background-color: lightcoral; */
 }
 
+.cards-section{
+	/* background-color: lightgreen; */
+	margin: 0 auto;
+	width: 80%;
+}
+
+.card-img-top{
+	height: 500px;
+}
+
+.card-heading
+{
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+.card-description{
+	color: #545454;
+	font-weight: 100;
+	font-size: 15px;
+	display: flex;
+	text-align: center;
+	/* background-color: aqua; */
+	justify-content: center;
+}
+
+.card-description>p{
+	/* background-color: aquamarine; */
+	margin-top: 10px;
+}
