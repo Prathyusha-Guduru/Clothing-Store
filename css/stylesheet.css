@@ -1,0 +1,71 @@
+/* Title */
+
+#title{
+	background-image: linear-gradient( 65.1deg,  rgba(255,238,187,1) 39.1%, rgba(255,220,184,1) 96.5% );	
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	width: 100%;	
+}
+
+.fa-shopping-cart{
+	color: #545454;
+}
+
+.container-fluid{
+	width: 90%;
+	/* background-color: lightblue; */
+	height: 100%;
+	padding-top: 40px;
+}
+
+.cover-section{
+	/* background-color: lightcoral; */
+	margin: 100px 0 10px 0;
+	color: #545454;
+	/* height: 100vh;
+	background-color: lightslategray; */
+}
+
+.tagline{
+	font-size: 100px;
+	font-weight: bolder;
+}
+
+/* Navbar */
+
+.form-inline{
+	width: 20%;
+	/* background-color: lightgreen; */
+	position: relative;
+	left: 20px;
+}
+
+.form-inline input{
+	width: 100% !important;
+	background: transparent;
+	border: 0px;
+	border-bottom: 1px solid #545454;
+	border-radius: 0px;
+}
+
+.navbar-nav > li{
+	padding-left:30px;
+	/* padding-right:30px; */
+}
+
+.navbar-brand{
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-size: 25px;
+	letter-spacing: 5px;
+	color: #545454 !important;
+}
+
+/* Features */
+
+.fa-truck{
+	background-color: lightblue;
+	font-size: 100px;
+}
