@@ -145,6 +145,7 @@ svg{
 	align-items: center;
 	padding: 0 0 100px 0;
 	font-family: 'Montserrat', sans-serif;
+	width: 100%;
 }
 
 .section-heading{
@@ -185,3 +186,60 @@ svg{
 	/* background-color: aquamarine; */
 	margin-top: 10px;
 }
+
+
+/* Discounts */
+
+#discount{
+	/* background-color: lightcoral; */
+	text-align: center;
+	width: 100%;
+}
+
+.boxes{
+	/* background-color: lightblue; */
+	width: 90%;
+	margin: 0 auto 0 180px;
+	text-align: center;
+}
+
+/* .big-box-2{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	background-color: aqua;
+	height: 500px;
+} */
+
+.big-box-2{
+	height: 500px;
+	width: 600px;
+	/* background-color: lawngreen; */
+}
+
+.b-1{
+	background-color: #ffc1b6;	
+	height: 500px;
+	border: 10px solid white;
+}
+
+.b-2{
+	background-color: #ffdcb8;
+	height: 50%;
+	border: 10px solid white;
+}
+
+.b-3{
+	/* background-color: #fdffbc; */
+	background-color: #ffeebb;
+	height: 50%;
+	border: 10px solid white;
+}
+
+.inside-box{
+	/* background-color: lightslategray; */
+	height: 90%;
+	width: 100%;
+	border: 10px solid white;
+}
+
