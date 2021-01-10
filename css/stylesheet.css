@@ -258,3 +258,26 @@ svg{
 	font-weight: 800;
 }
 
+/* Shoes */
+
+#shoes{
+	/* background-color: lightcoral; */
+	text-align: center;
+}
+
+.row{
+	width: 90%;
+	margin: 0 auto;
+}
+.picture-section{
+	height: 800px;
+	/* background-color: aqua; */
+}
+.content-section{
+	/* background-color: aquamarine; */
+	height: 800px;
+}
+.shoe-small-box{
+	border: 20px white solid;
+	height: 400px;
+}
