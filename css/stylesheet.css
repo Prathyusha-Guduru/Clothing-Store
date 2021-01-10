@@ -188,12 +188,14 @@ svg{
 }
 
 
-/* Discounts */
+					/* DISCOUNTS */
 
 #discount{
 	/* background-color: lightcoral; */
 	text-align: center;
 	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 0 100px 0;
 }
 
 .boxes{
@@ -241,5 +243,18 @@ svg{
 	height: 90%;
 	width: 100%;
 	border: 10px solid white;
+}
+
+.discount-content{
+	text-transform: uppercase;
+}
+
+.product{
+	font-weight: 400;
+	font-size: 25px;
+}
+
+.percentile{
+	font-weight: 800;
 }
 
