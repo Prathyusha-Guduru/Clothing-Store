@@ -6,6 +6,10 @@
 	box-sizing: border-box;
 }
 
+main{
+	width: 100vw;
+}
+
 #title{
 	background-image: linear-gradient( 65.1deg,  rgba(255,238,187,1) 39.1%, rgba(255,220,184,1) 96.5% );	
 	height: 100vh;
@@ -13,6 +17,7 @@
 	align-items: center;
 	width: 100%;	
 	font-family: 'Montserrat', sans-serif;
+	width: 100%;
 }
 
 .fa-shopping-cart{
@@ -28,7 +33,7 @@
 
 .cover-section{
 	/* background-color: lightcoral; */
-	margin: 100px 0 10px 0;
+	margin: 100px 0 10px 5px !important;
 	color: #545454;
 	/* height: 100vh;
 	background-color: lightslategray; */
@@ -37,6 +42,7 @@
 .tagline{
 	font-size: 100px;
 	font-weight: bolder;
+	/* margin: 50px 0 0 0; */
 }
 
 /* Navbar */
@@ -315,4 +321,23 @@ svg{
 	padding: 15px 50px;
 	margin: 10px;
 	width: 300px;
+}
+
+/* FOOTER */
+
+#footer{
+	background-color: #545454;
+	color: #fff;
+	margin: 100px 0 0 0;
+	height: 200px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.social-media-icons{
+	color: #fff;
+	margin: 10px 5px;
+}
+.copyright{
+	font-size: 12px;
 }
